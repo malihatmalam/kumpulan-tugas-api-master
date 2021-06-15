@@ -34,20 +34,20 @@ const sequelize = new Sequelize('bookstore', 'root', 'yourpassword', {
 
 
 ### Routes
-`GET /book/`
-Get all books
+`GET /tugas/`
+Get all tugas
 
-`GET /book/<isbn>`
-Get book by ISBN
+`GET /tugas/<id>`
+Get tugas by ID
 
-`POST /book/`
-Add new book into collection
+`POST /tugas/`
+Add new tugas into collection
 
-`PUT /book/`
-Update existing book
+`PUT /tugas/`
+Update existing tugas
 
-`DELETE /book/<isbn>`
-Delete book by ISBN
+`DELETE /tugas/<id>`
+Delete book by ID
 
 ---
 ### Test
